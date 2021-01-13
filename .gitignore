@@ -1,0 +1,11 @@
+.DS_*
+
+node_modules
+.eslintcache
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace

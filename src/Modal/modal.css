@@ -1,0 +1,142 @@
+.actions{
+  border-radius: 0  0 10px 10px;
+}
+.modal {
+  border-radius: 10px;
+  width: 500px;
+  background: white;
+  border: 1px solid #ccc;
+  transition: 1.1s ease-out;
+  box-shadow: 0 0 0 9999px rgba(0,0,0, 0.7);
+  filter: blur(0);
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+  position: absolute;
+  top: 100px;
+  left: 30%;
+  z-index: 1;
+}
+.modal.off {
+  opacity: 0;
+  visibility: hidden;
+  filter: blur(8px);
+  transform: scale(0.33);
+  box-shadow: 1rem 0 0 rgba(0, 0, 0, 0.2);
+}
+.form-modal {
+  margin: 15px;
+  position: relative;
+}
+
+.form-modal input {
+  width: 90%;
+  border-radius: 5px;
+  display: block;
+  outline: none;
+  background: #fff;
+  border: 1px solid #0095DA;;
+  padding: 30px 20px 20px 20px;
+  font-size: 16px;
+  color: #003046;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.form-modal label {
+  top: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 20px;
+  color: #003046;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+
+.form-modal input:valid+label,
+.form-modal input:focus+label {
+  top: 0;
+  font-size: 14px;
+}
+
+.toggle-button{
+  color: white;
+  /* width: 100%; */
+  background-color: #0095DA;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #0095DA;
+  margin: 15px;
+}
+
+/* @supports (offset-rotation: 0deg) {
+  offset-rotation: 0deg;
+  offset-path: path("M 250,100 S -300,500 -700,-200");
+  .modal.off {
+    offset-distance: 100%;
+  }
+} */
+@media (prefers-reduced-motion) {
+  .modal {
+    offset-path: none;
+  }
+}
+.modal h2 {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  margin: 0;
+}
+.modal .content {
+  padding: 1rem;
+}
+.modal .actions {
+  border-top: 1px solid #ccc;
+  background: #eee;
+  padding: 0.5rem 1rem;
+}
+.modal .actions button {
+  color: white;
+  background-color: #0095DA;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #0095DA;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .modal {
+      left: 19%;
+      top: 50px;
+  }
+
+}
+@media (max-width: 576px) {
+  .modal {
+      left: 19%;
+      top: 50px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .modal {
+      left: 7%;
+      width: 350px;
+  }
+
+}
+@media (max-width: 375px) {
+  .modal {
+      width: 280px;
+  }
+
+  .form-modal input {
+      width: 80%;
+  }
+}

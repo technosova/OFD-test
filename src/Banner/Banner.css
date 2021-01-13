@@ -1,0 +1,137 @@
+.Banner {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 24px 32px;
+    position: relative;
+    background-image: url(../AccessForm/bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 350px;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    /* height: calc(100% - 104px); */
+    max-width: 1064px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #003046;
+}
+
+
+.BlockHeader p {
+    font-weight: 800;
+    width: 300px;
+    font-size: 18px;
+    color: #003046;
+}
+
+@media (max-width: 768px) {
+
+    .BlockHeader h1 {
+        font-size: 30px;
+    }
+
+    .BlockHeader p {
+        font-size: 15px;
+    }
+
+    .form-control {
+        margin: 10px;
+    }
+
+    .form-control input {
+        padding: 25px 10px 10px 10px;
+        font-size: 14px;
+    }
+
+    .form-control label {
+        font-size: 10px;
+        left: 10px;
+    }
+
+    .Footer-element {
+        font-size: 15px;
+        width: 120px;
+        padding: 10px 20px 10px 10px;
+    }
+}
+
+@media (max-width: 576px) {
+
+
+    .BlockHeader h1 {
+        font-size: 30px;
+    }
+
+    .BlockHeader p {
+        font-size: 15px;
+    }
+
+    .form-control {
+        margin: 10px;
+    }
+
+    .form-control input {
+        padding: 25px 10px 10px 10px;
+        font-size: 14px;
+    }
+
+    .form-control label {
+        font-size: 10px;
+        left: 10px;
+    }
+
+    .Footer-element {
+        font-size: 15px;
+        width: 120px;
+        padding: 10px 20px 10px 10px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+
+    .BlockHeader h1 {
+        font-size: 30px;
+    }
+
+    .BlockHeader p {
+        font-size: 16px;
+    }
+
+    .Banner {
+        display: block;
+        height: 80vh;
+    }
+
+    .form-control {
+        margin: 10px;
+    }
+
+    .form-control input {
+        padding: 25px 10px 10px 10px;
+        font-size: 14px;
+    }
+
+    .form-control label {
+        font-size: 10px;
+        left: 10px;
+    }
+
+    .Footer {
+        margin-top: 30px;
+    }
+
+    .Footer-element {
+        font-size: 12px;
+        width: 120px;
+        padding: 10px 20px 10px 10px;
+    }
+}
+

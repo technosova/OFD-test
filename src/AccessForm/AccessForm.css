@@ -1,0 +1,61 @@
+/* .AccessForm {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 24px 32px;
+    position: relative;
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+
+} */
+
+
+
+.form-control {
+    margin: 15px;
+    position: relative;
+}
+
+.form-control input {
+    border-radius: 5px;
+    display: block;
+    outline: none;
+    width: 100%;
+    background: #fff;
+    border: none;
+    padding: 30px 20px 20px 20px;
+    font-size: 16px;
+    color: #003046;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.form-control label {
+    top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    left: 20px;
+    color: #003046;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+
+.form-control input:valid+label,
+.form-control input:focus+label {
+    top: 0;
+    font-size: 14px;
+}
+
+.form-submit {
+    color: white;
+    width: 100%;
+    background-color: #0095DA;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0095DA;
+    margin: 15px;
+}

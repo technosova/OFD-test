@@ -1,0 +1,113 @@
+.Button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0095DA;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+button:focus,
+button:active {
+    outline: none;
+}
+
+.Button-login {
+    color: #0095DA;
+    background-color: transparent;
+}
+
+.Button-registration {
+    color: white;
+    background-color: #0095DA;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 100px;
+}
+
+.Menu-nav {
+    display: flex;
+}
+
+.Menu-header {
+    display: flex;
+    align-items: center;
+}
+
+.Menu-header img {
+    width: 30px;
+    padding-right: 15px;
+}
+
+.Menu-title {
+    color: #0095DA;
+    padding-right: 50px;
+}
+
+.Menu-nav-item {
+    color: #003046;
+    border: none;
+    background: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.Menu-nav-item:hover {
+    margin-bottom: -2px;
+    border-bottom: 2px solid #0095DA;
+}
+
+@media (max-width: 768px) {
+    .Menu {
+        padding: 15px;
+    }
+
+    .Menu-nav-item {
+        padding: 10px;
+    }
+
+    .Menu-title {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .Menu {
+        padding: 15px;
+    }
+
+    .Menu-nav-item {
+        padding: 10px;
+    }
+
+    .Menu-title {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .buttonBlock {
+        display: flex;
+    }
+    
+    .Menu {
+        padding: 15px;
+    }
+
+    .Menu-nav {
+        display: none;
+    }
+
+    .Menu-nav-item {
+        padding: 10px;
+    }
+
+    .Menu-title {
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,46 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+}
+
+.Footer-element {
+    border-left: 3px solid #0095DA;
+    ;
+    width: 125px;
+    padding: 10px 50px 10px 10px;
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .Footer-element {
+        font-size: 15px;
+        width: 120px;
+        padding: 10px 20px 10px 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .Footer-element {
+        font-size: 15px;
+        width: 120px;
+        padding: 10px 20px 10px 10px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .Footer {
+        margin-top: 30px;
+    }
+
+    .Footer-element {
+        font-size: 12px;
+        width: 120px;
+        padding: 10px 20px 10px 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Footer-element {
+        padding: 5px 10px 5px 5px;
+    }
+}
